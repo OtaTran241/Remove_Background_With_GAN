@@ -20,6 +20,8 @@ This project implements a Generative Adversarial Network (GAN) to perform backgr
 ## Project Overview
 This project leverages a GAN consisting of a generator (`GModel`) and a discriminator (`DModel`) to remove backgrounds from images. The generator learns to produce images without backgrounds, while the discriminator differentiates between real images (with no background) and generated images.
 
+<img src="./images/test.jpg" style="width:400px;"/> ===> <img src="./images/result.png" style="width:400px;"/>
+
 ## Dataset
 The dataset used in this project consists of paired images:
 - **Images with backgrounds**: Input images that contain the background.
